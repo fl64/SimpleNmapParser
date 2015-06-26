@@ -1,4 +1,3 @@
-__author__ = 'fl64'
 import xml.etree.ElementTree as ET
 tree = ET.parse('/home/user/nmap-scans/homenet.xml')
 root = tree.getroot()
